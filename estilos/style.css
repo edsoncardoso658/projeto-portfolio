@@ -20,7 +20,7 @@
   --texto-inverso: white;
   --destaque: rgb(30, 43, 158);
   --destaque-inverso: lightblue;
-  --fund-card: #f3dbdb;
+  --fundo-card: #e0d9d9;
 
 }
 
@@ -62,4 +62,59 @@ nav#menu a{
 nav#menu a:hover{
   background-color: var(--destaque-inverso);
   color: var(--destaque)
+}
+
+
+main{
+  display: grid;
+  grid-template-columns: auto 95vw auto;
+  gap: 20px;
+}
+
+section#bio{
+  background-color: var(--fundo-card);
+  padding: 20px;
+  border-radius: 8px;
+  grid-column: 2;
+
+}
+
+section#bio img.foto{
+  border-radius: 50%;
+  width: 200px;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  object-fit: cover;
+  border: 5px solid var(--fund-card);
+  outline: 5px solid var(--destaque);
+  display: block;
+  margin: auto;
+  margin-bottom: 15px;
+  
+
+}
+
+section#bio h1{
+  color: var(--destaque);
+  margin: 15px 0;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+div#social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  gap: 5px;
+}
+
+div#social a{
+  color: var(--destaque);
+  text-decoration: none;
+}
+
+div#social a:hover{
+  color: var(--destaque-inverso);
+
 }
