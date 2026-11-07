@@ -67,7 +67,7 @@ nav#menu a:hover{
 
 main{
   display: grid;
-  grid-template-columns: auto 95vw auto;
+  grid-template-columns: auto 90vw auto;
   gap: 20px;
 }
 
