@@ -156,3 +156,15 @@ section#detalhes h2{
   font-size: 1.2Em;
   
 }
+
+#skills-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+#skills-container div.info{
+  display: flex;
+  justify-content: space-between;
+}
+
