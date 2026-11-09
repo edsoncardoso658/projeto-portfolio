@@ -192,3 +192,15 @@ div.progresso{
   border-radius: 4px;
 
 }
+
+div#formacao-container{
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+}
+
+div.curso{
+  padding: 10px;
+  border-left: 5px solid var(--destaque);
+  border-radius: 8px;
+}
