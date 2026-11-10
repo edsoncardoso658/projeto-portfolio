@@ -21,7 +21,7 @@
   --texto: black;
   --texto-inverso: white;
   --destaque: rgb(30, 43, 158);
-  --destaque-inverso: lightblue;
+  --destaque-inverso: rgb(20, 167, 216);
   --fundo-card: #e0d9d9;
 
 }
@@ -203,4 +203,11 @@ div.curso{
   padding: 10px;
   border-left: 5px solid var(--destaque);
   border-radius: 8px;
+  transition: border-left-width 0.5s, border-color 0.5s;
+}
+
+div .curso:hover{
+  border-left-width: 20px;
+  cursor: pointer;
+  border-color: var(--destaque-inverso);
 }
